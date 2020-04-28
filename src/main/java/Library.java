@@ -31,8 +31,6 @@ public class Library {
                 stock.put(genre, 1);
             }
 
-            System.out.println(stock);
-
         }
 
     }
