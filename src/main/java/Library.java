@@ -18,7 +18,7 @@ public class Library {
     }
 
 
-    public void getStock() {
+    public HashMap<String, Integer> getStock() {
 
         String genre;
         int counter = 0;
@@ -32,7 +32,7 @@ public class Library {
             }
 
         }
-
+        return this.stock;
     }
 
     public int bookCount() {
