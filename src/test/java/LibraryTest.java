@@ -51,7 +51,7 @@ public class LibraryTest {
         library.addBook(book2);
         library.addBook(book);
         library.addBook(book2);
-        library.setStock();
+        library.getStock();
         assertEquals(4,library.bookCount());
     }
 }

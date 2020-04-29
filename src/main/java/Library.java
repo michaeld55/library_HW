@@ -18,10 +18,10 @@ public class Library {
     }
 
 
-    public void setStock() {
+    public void getStock() {
 
         String genre;
-        Integer counter = 0;
+        int counter = 0;
         for (Book book : books){
             genre = book.getGenre();
             if (stock.containsKey(genre)) {
